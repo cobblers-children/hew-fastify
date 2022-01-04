@@ -1,0 +1,30 @@
+{
+  "name": "emptyjs",
+  "version": "1.0.0",
+  "description": "Empty Project Template",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmarshall/emptyjs.git"
+  },
+  "keywords": [
+    "node",
+    "empty"
+  ],
+  "author": "Jason Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdmarshall/emptyjs/issues"
+  },
+  "homepage": "https://github.com/jdmarshall/emptyjs#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
